@@ -29,13 +29,13 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código whaticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo download do código whaticket... É nois na fita...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/canove/whaticket /home/deploy/whaticket/
+  git clone https://github.com/joao-dio/Whaticket-kanban /home/deploy/whaticket/
 EOF
 
   sleep 2
