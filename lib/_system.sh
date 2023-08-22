@@ -29,13 +29,13 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código whaticket... É nois na fita...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo download do código whaticket...É nois na fita...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/joao-dio/Whaticket-kanban /home/deploy/whaticket/
+  git clone https://github.com/dollyzn/whaticket-cero /home/deploy/whaticket/
 EOF
 
   sleep 2
@@ -48,7 +48,7 @@ EOF
 #######################################
 system_update() {
   print_banner
-  printf "${WHITE} 💻 Vamos atualizar o sistema...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos atualizar o sistema...É nois na fita...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -67,7 +67,7 @@ EOF
 #######################################
 system_node_install() {
   print_banner
-  printf "${WHITE} 💻 Instalando nodejs...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Instalando nodejs...É nois na fita...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -87,7 +87,7 @@ EOF
 #######################################
 system_docker_install() {
   print_banner
-  printf "${WHITE} 💻 Instalando docker...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Instalando docker...É nois na fita...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -120,7 +120,7 @@ EOF
 #######################################
 system_puppeteer_dependencies() {
   print_banner
-  printf "${WHITE} 💻 Instalando puppeteer dependencies...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Instalando puppeteer dependencies...É nois na fita...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
